@@ -1,0 +1,78 @@
+.inputWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 20px; */
+}
+
+.labelDiv {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #344054;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.inputDiv {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: right;
+  width: 8rem;
+  color: #344054;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.inputDiv::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+}
+.inputDiv::-webkit-outer-spin-button,
+.inputDiv::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputDiv:focus {
+}
+.range {
+  position: relative;
+  width: 100%;
+}
+.rangeSlider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  outline: none;
+  border-radius: 12px;
+  background-color: #8a8a8a62;
+}
+.rangeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  background: #3498da;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+.rangeSlider::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+  color: #db4437;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 12px;
+  margin-top: 4px;
+}
