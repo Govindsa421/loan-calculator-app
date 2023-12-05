@@ -1,12 +1,8 @@
 import React from "react";
-import PersonalLoan from "@/components/personal-loan";
+import Calculator from "@/components/Calculator";
 
 const App = () => {
-  return (
-    <div>
-      <PersonalLoan />
-    </div>
-  );
+  return <Calculator />;
 };
 
 export default App;

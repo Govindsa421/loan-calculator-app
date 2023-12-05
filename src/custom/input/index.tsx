@@ -19,7 +19,7 @@ const Input = (props: InputProps) => {
   const rangeSliderStyle = {
     background: `linear-gradient(to right, #3498db 0%, #3498db ${trackFillPercentage}%, #8a8a8a62 ${trackFillPercentage}%, #8a8a8a62 100%)`,
   };
-  console.log(props, "props");
+  // console.log(props, "props");
   return (
     <div className={inputStyles.inputWrapper}>
       <label className={inputStyles.labelDiv}>{label}</label>
